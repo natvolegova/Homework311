@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/liner0"
+        style="@style/line"
+        >
+        <TextView
+            android:id="@+id/result"
+            style="@style/result"
+            android:text="@string/txt_0"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/liner1"
+        style="@style/line"
+        >
+        <TextView
+            android:id="@+id/txt07"
+            android:text="@string/btn_7"
+            style="@style/btn_num" />
+        <TextView
+            style="@style/btn_num"
+            android:text="@string/btn_8"
+            android:id="@+id/txt08"/>
+        <TextView
+            style="@style/btn_num"
+            android:text="@string/btn_9"
+            android:id="@+id/txt09"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/liner2"
+        style="@style/line"
+        >
+        <TextView
+            android:id="@+id/txt04"
+            android:text="@string/btn_4"
+            style="@style/btn_num" />
+        <TextView
+            style="@style/btn_num"
+            android:text="@string/btn_5"
+            android:id="@+id/txt05"/>
+        <TextView
+            style="@style/btn_num"
+            android:text="@string/btn_6"
+            android:id="@+id/txt06"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner3"
+        style="@style/line">
+        <TextView
+            android:id="@+id/txt01"
+            style="@style/btn_num"
+            android:text="@string/btn_1" />
+        <TextView
+            style="@style/btn_num"
+            android:text="@string/btn_2"
+            android:id="@+id/txt02"/>
+        <TextView
+            style="@style/btn_num"
+            android:text="@string/btn_3"
+            android:id="@+id/txt03"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/liner4"
+        style="@style/line">
+        <TextView
+            android:id="@+id/txt00"
+            style="@style/btn_num_23"
+            android:text="@string/txt_0" />
+        <TextView
+            style="@style/btn_num"
+            android:text="@string/txt_dot"
+            android:id="@+id/txt_dot"/>
+    </LinearLayout>
+</LinearLayout>
